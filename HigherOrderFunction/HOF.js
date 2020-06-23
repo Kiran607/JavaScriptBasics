@@ -56,7 +56,7 @@ console.log(retailCompanies);
 const eightiesCompany = companies.filter(company => company.start < 1990);
 console.log(eightiesCompany);
 
-Filter for get end year compaines 2000
+// Filter for get end year compaines 2000
 
 const endCompanies = companies.filter(company => (company.start - company.end >= 10));
 console.log(endCompanies);
